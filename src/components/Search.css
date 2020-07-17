@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.input{
+    background: white;
+    color: black;
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid #251f44;
+    margin-right: 20px;
+    padding: 6px;
+
+}
+.input:focus{
+    outline: none;
+}
+
+.btn {
+    background-color: #14b1ab;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 16px;
+    border: 2px solid #251f44;
+    transition: 0.5s;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: #0f8581;
+    color: black;
+}
+
+.error-msg{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

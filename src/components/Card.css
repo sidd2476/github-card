@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #e4e3e3;
+    font-family: 'Popins',sans-serif;
+}
+
+p{
+    position: absolute;
+    font-size: 12px;
+}
+.card{
+    position: absolute;
+    height: 230px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #14b1ab;
+    border-radius: 20px;
+    box-shadow: 0px 0px -2px black;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.card .tooltiptext{
+    visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+    position: relative;
+  z-index: 1;
+}
+
+.card:hover .tooltiptext{
+    visibility: visible;
+}
+.line {
+    position: absolute;
+    left: 34%;
+    height: 66%;
+    width: 1px;
+    background-color: #333333;
+}
+
+.blog{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.avatar{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 16px;
+    top: 20%;
+    box-sizing: border-box;
+    border: 2px solid #00fff5;
+    margin-top: 15px;
+
+}
+
+
+.name{
+    display: inline-block;
+    margin: 0;
+    color: #1d1b38;
+    text-transform: uppercase;
+}
+.repo{
+    left: 50px;
+    bottom: -4px;
+    left: 10px;
+}
+
+ .company{
+    left: 50px;
+    bottom: -4px;
+    left: 80px;
+} */
+.place{
+    left: 36%;
+}
+
+.joined-date {
+    right: 10px;
+}
+
+.bio {
+    width: 60%;
+    left: 36%;
+    top: 35%;
+    font-size: 16px;
+    color: #141414;
+}
+
+.fa-users, .fa-twitter {
+    color: #000;
+    font-size: 24px;
+}
+
+.fa-twitter {
+    font-size: 32px;
+}
+
+.followers {
+    left: 36%;
+    bottom: -10px;
+    font-size: 16px;
+}
+
+.twitter {
+    bottom: -10px;
+    right: 10px;
+}
